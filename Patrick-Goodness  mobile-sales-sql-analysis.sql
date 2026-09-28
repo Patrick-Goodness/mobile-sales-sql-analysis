@@ -202,12 +202,10 @@ SELECT PRODUCT, [INWARD DATE], YEAR([INWARD DATE]) AS Inward_Year, MONTH([INWARD
 FROM dbo.mobile_sales_data;
 
 ---How many total days elapsed between August 1, 2024, and August 10, 2024?
-SELECT DATEDIFF(DAY, '2024-08-01', '2024-08-10')
-FROM dbo.mobile_sales_data;
+SELECT DATEDIFF(DAY, '2024-08-01', '2024-08-10') AS Days_Elapsed;
 
 --Query B
-SELECT DATEDIFF(DAY, '2024-08-10', '2024-08-01')
-FROM dbo.mobile_sales_data;
+SELECT DATEDIFF(DAY, '2024-08-10', '2024-08-01') AS Days_Elapsed;
 
 ---How many days does it take to dispatch each product from the time it is received into inventory?
 SELECT Product, [Inward Date], [Dispatch Date], DATEDIFF(Day, [Inward Date], [Dispatch Date]) As Days_To_Dispatch
