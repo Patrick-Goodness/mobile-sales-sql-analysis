@@ -17,16 +17,36 @@ The main objectives of this project are to:
 - Identify patterns and relationships within the data
 - Answer practical business questions using SQL
 - Transform raw data into meaningful analytical insights
+  
+## SQL Analysis Covered
 
-## Tools and Technologies
+The analysis covers the following areas:
 
-- SQL
+- Data exploration and filtering
+- Product and brand analysis
+- Price and quantity analysis
+- Customer analysis
+- Regional analysis
+- Sorting and conditional filtering
+- Aggregate analysis
+- SQL functions
+- String manipulation
+- Conditional logic using CASE
+- Date and time analysis
+- Date difference calculations
+- Inventory and dispatch analysis
+- Business-focused analytical queries
+  
+## Tools Used
+
 - Microsoft SQL Server
-- SQL Server Management Studio (SSMS)
-
+- SQL
+- GitHub
+- CSV
+  
 ## SQL Skills Demonstrated
 
-### Data Exploration
+# Data Exploration
 
 - SELECT
 - Column selection
@@ -34,7 +54,7 @@ The main objectives of this project are to:
 - Sorting results
 - Exploring dataset structure
 
-### Data Filtering and Logic
+# Data Filtering and Logic
 
 - WHERE
 - AND
@@ -42,14 +62,14 @@ The main objectives of this project are to:
 - BETWEEN
 - Conditional filtering
 
-### Data Sorting
+# Data Sorting
 
 - ORDER BY
 - ASC
 - DESC
 - Multiple-column sorting
 
-### Data Aggregation
+# Data Aggregation
 
 - GROUP BY
 - Aggregate functions
@@ -59,27 +79,27 @@ The main objectives of this project are to:
 - MIN
 - MAX
 
-### Conditional Analysis
+# Conditional Analysis
 
 - CASE statements
 - Business classification
 - Conditional logic
 
-### String Functions
+# String Functions
 
 - UPPER
 - TRIM
 - LEN
 - CONCAT
 
-### Date Analysis
+# Date Analysis
 
 - YEAR
 - MONTH
 - DAY
 - Date-based analysis
 
-### Business Analysis
+# Business Analysis
 
 - Product analysis
 - Brand analysis
@@ -116,14 +136,10 @@ The project follows a structured data analysis process:
 8. Interpret findings and communicate insights
 
 ## Project Structure
-
-The repository will contain:
-
-- SQL analysis queries
-- Dataset-related analysis
-- Business questions
-- Analytical findings
-- Project documentation
+The repository contains the following project files:
+- Patrick-Goodness mobile-sales-sql-analysis.sql — SQL queries used for data exploration, filtering, sorting, aggregation, conditional analysis, and business-focused analysis.
+- mobile_sales_data.csv — Mobile sales dataset used for the analysis.
+- README.md — Project documentation covering the project overview, objectives, SQL skills demonstrated, and business questions explored.
 
 ## Skills Demonstrated
 
